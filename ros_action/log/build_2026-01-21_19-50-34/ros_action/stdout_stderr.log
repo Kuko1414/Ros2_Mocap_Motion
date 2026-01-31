@@ -1,0 +1,57 @@
+running egg_info
+creating build/ros_action/ros_action.egg-info
+writing build/ros_action/ros_action.egg-info/PKG-INFO
+writing dependency_links to build/ros_action/ros_action.egg-info/dependency_links.txt
+writing entry points to build/ros_action/ros_action.egg-info/entry_points.txt
+writing requirements to build/ros_action/ros_action.egg-info/requires.txt
+writing top-level names to build/ros_action/ros_action.egg-info/top_level.txt
+writing manifest file 'build/ros_action/ros_action.egg-info/SOURCES.txt'
+reading manifest file 'build/ros_action/ros_action.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/ros_action/ros_action.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build
+creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib
+creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+copying ros_action/ros_action.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+copying ros_action/simple_lattice_planner.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+copying ros_action/lattice_path_follower.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+copying ros_action/__init__.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+copying ros_action/send_target.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators
+copying ros_action/curve_generators/__init__.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators
+copying ros_action/curve_generators/circle_trajectory.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators
+running install
+running install_lib
+creating /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/ros_action.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+creating /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators
+copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators/__init__.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators
+copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators/circle_trajectory.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators
+copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/simple_lattice_planner.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/lattice_path_follower.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/__init__.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/send_target.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/ros_action.py to ros_action.cpython-310.pyc
+byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators/circle_trajectory.py to circle_trajectory.cpython-310.pyc
+byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/simple_lattice_planner.py to simple_lattice_planner.cpython-310.pyc
+byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/lattice_path_follower.py to lattice_path_follower.cpython-310.pyc
+byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/send_target.py to send_target.cpython-310.pyc
+running install_data
+creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index
+creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index/resource_index
+creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index/resource_index/packages
+copying resource/ros_action -> /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index/resource_index/packages
+copying package.xml -> /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ros_action
+creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ros_action/launch
+copying launch/lattice_follower.launch.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ros_action/launch
+running install_egg_info
+Copying build/ros_action/ros_action.egg-info to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action-0.0.0-py3.10.egg-info
+running install_scripts
+Installing circular_trajectory script to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/ros_action
+Installing lattice_follower script to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/ros_action
+Installing send_target script to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/ros_action
+writing list of installed files to '/home/kuko/humble_ws/src/ros_action/build/ros_action/install.log'

@@ -1,0 +1,59 @@
+[0.269s] Invoking command in '/home/kuko/humble_ws/src/ros_action': PYTHONPATH=/home/kuko/humble_ws/src/ros_action/build/ros_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros_action build --build-base /home/kuko/humble_ws/src/ros_action/build/ros_action/build install --record /home/kuko/humble_ws/src/ros_action/build/ros_action/install.log --single-version-externally-managed install_data
+[0.378s] running egg_info
+[0.378s] creating build/ros_action/ros_action.egg-info
+[0.378s] writing build/ros_action/ros_action.egg-info/PKG-INFO
+[0.379s] writing dependency_links to build/ros_action/ros_action.egg-info/dependency_links.txt
+[0.379s] writing entry points to build/ros_action/ros_action.egg-info/entry_points.txt
+[0.379s] writing requirements to build/ros_action/ros_action.egg-info/requires.txt
+[0.381s] writing top-level names to build/ros_action/ros_action.egg-info/top_level.txt
+[0.381s] writing manifest file 'build/ros_action/ros_action.egg-info/SOURCES.txt'
+[0.381s] reading manifest file 'build/ros_action/ros_action.egg-info/SOURCES.txt'
+[0.381s] adding license file 'LICENSE'
+[0.381s] writing manifest file 'build/ros_action/ros_action.egg-info/SOURCES.txt'
+[0.381s] running build
+[0.381s] running build_py
+[0.381s] creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build
+[0.381s] creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib
+[0.381s] creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+[0.381s] copying ros_action/ros_action.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+[0.381s] copying ros_action/simple_lattice_planner.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+[0.382s] copying ros_action/lattice_path_follower.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+[0.382s] copying ros_action/__init__.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+[0.382s] copying ros_action/send_target.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action
+[0.382s] creating /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators
+[0.382s] copying ros_action/curve_generators/__init__.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators
+[0.382s] copying ros_action/curve_generators/circle_trajectory.py -> /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators
+[0.382s] running install
+[0.385s] running install_lib
+[0.385s] creating /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+[0.385s] copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/ros_action.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+[0.385s] creating /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators
+[0.385s] copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators/__init__.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators
+[0.385s] copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/curve_generators/circle_trajectory.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators
+[0.385s] copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/simple_lattice_planner.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+[0.385s] copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/lattice_path_follower.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+[0.385s] copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/__init__.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+[0.385s] copying /home/kuko/humble_ws/src/ros_action/build/ros_action/build/lib/ros_action/send_target.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action
+[0.385s] byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/ros_action.py to ros_action.cpython-310.pyc
+[0.385s] byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators/__init__.py to __init__.cpython-310.pyc
+[0.386s] byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/curve_generators/circle_trajectory.py to circle_trajectory.cpython-310.pyc
+[0.386s] byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/simple_lattice_planner.py to simple_lattice_planner.cpython-310.pyc
+[0.386s] byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/lattice_path_follower.py to lattice_path_follower.cpython-310.pyc
+[0.386s] byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/__init__.py to __init__.cpython-310.pyc
+[0.386s] byte-compiling /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action/send_target.py to send_target.cpython-310.pyc
+[0.386s] running install_data
+[0.386s] creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index
+[0.386s] creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index/resource_index
+[0.386s] creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index/resource_index/packages
+[0.386s] copying resource/ros_action -> /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ament_index/resource_index/packages
+[0.386s] copying package.xml -> /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ros_action
+[0.386s] creating /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ros_action/launch
+[0.386s] copying launch/lattice_follower.launch.py -> /home/kuko/humble_ws/src/ros_action/install/ros_action/share/ros_action/launch
+[0.386s] running install_egg_info
+[0.387s] Copying build/ros_action/ros_action.egg-info to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages/ros_action-0.0.0-py3.10.egg-info
+[0.387s] running install_scripts
+[0.396s] Installing circular_trajectory script to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/ros_action
+[0.396s] Installing lattice_follower script to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/ros_action
+[0.396s] Installing send_target script to /home/kuko/humble_ws/src/ros_action/install/ros_action/lib/ros_action
+[0.396s] writing list of installed files to '/home/kuko/humble_ws/src/ros_action/build/ros_action/install.log'
+[0.408s] Invoked command in '/home/kuko/humble_ws/src/ros_action' returned '0': PYTHONPATH=/home/kuko/humble_ws/src/ros_action/build/ros_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuko/humble_ws/src/ros_action/install/ros_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros_action build --build-base /home/kuko/humble_ws/src/ros_action/build/ros_action/build install --record /home/kuko/humble_ws/src/ros_action/build/ros_action/install.log --single-version-externally-managed install_data
